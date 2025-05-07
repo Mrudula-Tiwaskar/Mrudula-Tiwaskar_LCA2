@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>OrgMart Navbar</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+  <div class="top-bar"></div>
+    <nav class="navbar">
+      <div class="nav-content">
+        <!-- Logo -->
+        <div class="logo">
+          <img src="Logo.png" alt="OrgMart Logo" />
+        </div>
+
+        <!-- Navigation Links -->
+        <ul class="nav-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Shop</a></li>
+          <li><a href="#">Sustainability</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+
+        <!-- Search Box -->
+        <div class="search-box">
+          <input type="text" placeholder="Try searching for Fresh Broccoli" />
+        </div>
+
+        <!-- Icons -->
+        <div class="icons">
+          <img src="Profile.png" alt="Profile Icon" />
+          <a href="wishlist.html"><img src="Wishlist.png" alt="Wishlist Icon" /></a>
+          <div class="cart-icon">
+            <a href="cart2.html"> <img src="Cart.png" alt="Cart Icon" />
+            <span class="cart-count">2</span></a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="carousel">
+      <div class="slides">
+        <img src="Mango.png" alt="Alphonso Mangoes" class="slide active">
+        <img src="Broccoli.png" alt="Broccoli Health" class="slide">
+        <img src="Kiwi.png" alt="Organic Kiwis" class="slide">
+      </div>
+      <div class="dots">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>
+    </div>
+    <section class="bestsellers">
+      <div class="section-title">
+        <img src="Our best sellers.png" alt="Our Bestsellers" />
+      </div>
+      <div class="product-grid">
+    
+        <!-- Product Cards Start -->
+    
+        <div class="product-card">
+          <div class="product-img">
+            <img src="Honey 1.png" alt="Honey" />
+            <div class="card-actions">
+              <button class="wishlist-btn">
+                     <svg class="heart-icon" viewBox="0 0 24 24" fill="none" stroke="#364F2A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                       <path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.6l-1-1a5.5 5.5 0 0 0-7.8 7.8l1 1L12 21l7.8-7.8 1-1a5.5 5.5 0 0 0 0-7.8z"/>
+                     </svg>
+                   </button>
+               <i class="fas fa-heart wishlist-icon" data-id="1" data-name="Honey" data-price="350" data-image="Honey 1.png"></i>
+             </div>
+          </div>
+          <div class="product-details">
+            <h3>Cold-Pressed<br>Forest Honey</h3>
+            <select>
+              <option>300 gm</option>
+            </select>
+            <div class="price-row">
+              <span>₹350</span>
+              <button>Add</button>
+            </div>
+          </div>
+        </div>
+    
+        <!-- Copy the card above and replace image/src/text/price for each of the 7 other products -->
+    
+        <!-- Example: Mango Pickle -->
+        <div class="product-card">
+          <div class="product-img">
+            <img src="pickle-removebg-preview 1.png" alt="Pickle" />
+            <div class="card-actions">
+              <button class="wishlist-btn">
+                     <svg class="heart-icon" viewBox="0 0 24 24" fill="none" stroke="#364F2A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                       <path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.6l-1-1a5.5 5.5 0 0 0-7.8 7.8l1 1L12 21l7.8-7.8 1-1a5.5 5.5 0 0 0 0-7.8z"/>
+                     </svg>
+                   </button>
+               <i class="fas fa-heart wishlist-icon" data-id="2" data-name="Pickle" data-price="320" data-image="pickle-removebg-preview 1.png"></i>
+             </div>
+          </div>
+          <div class="product-details">
+            <h3>Grandma's Mango Pickle<br>(No Preservatives)</h3>
+            <select>
+              <option>250 gm</option>
+            </select>
+            <div class="price-row">
+              <span>₹320</span>
+              <button>Add</button>
+            </div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-img">
+            <img src="jaggery 1.png" alt="Jaggery" />
+            <div class="card-actions">
+              <button class="wishlist-btn">
+                     <svg class="heart-icon" viewBox="0 0 24 24" fill="none" stroke="#364F2A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                       <path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.6l-1-1a5.5 5.5 0 0 0-7.8 7.8l1 1L12 21l7.8-7.8 1-1a5.5 5.5 0 0 0 0-7.8z"/>
+                     </svg>
+                   </button>
+               <i class="fas fa-heart wishlist-icon" data-id="3" data-name="Jaggery" data-price="130" data-image="jaggery 1.png"></i>
+             </div>
+          </div>
+          <div class="product-details">
+            <h3>Chemical-Free <br>Jaggery Powder (Gud)</h3>
+            <select>
+              <option>500 gm</option>
+            </select>
+            <div class="price-row">
+              <span>₹130</span>
+              <button>Add</button>
+            </div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-img">
+            <img src="peanut_butter-removebg-preview 1.png" alt="Peanut" />
+            <div class="card-actions">
+              <button class="wishlist-btn">
+                     <svg class="heart-icon" viewBox="0 0 24 24" fill="none" stroke="#364F2A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                       <path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.6l-1-1a5.5 5.5 0 0 0-7.8 7.8l1 1L12 21l7.8-7.8 1-1a5.5 5.5 0 0 0 0-7.8z"/>
+                     </svg>
+                   </button>
+               <i class="fas fa-heart wishlist-icon" data-id="4" data-name="Peanut" data-price="370" data-image="peanut_butter-removebg-preview 1.png"></i>
+             </div>
+          </div>
+          <div class="product-details">
+            <h3>Crunchy Peanut Butter <br>(No Refined Sugar)</h3>
+            <select>
+              <option>500 gm</option>
+            </select>
+            <div class="price-row">
+              <span>₹370</span>
+              <button>Add</button>
+            </div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-img">
+            <img src="Dalimba 1.png" alt="Dalimba" />
+            <div class="card-actions">
+              <button class="wishlist-btn">
+                     <svg class="heart-icon" viewBox="0 0 24 24" fill="none" stroke="#364F2A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                       <path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.6l-1-1a5.5 5.5 0 0 0-7.8 7.8l1 1L12 21l7.8-7.8 1-1a5.5 5.5 0 0 0 0-7.8z"/>
+                     </svg>
+                   </button>
+               <i class="fas fa-heart wishlist-icon" data-id="5" data-name="Dalimba" data-price="160" data-image="Dalimba 1.png"></i>
+             </div>
+          </div>
+          <div class="product-details">
+            <h3>Farm-Fresh <br>Pomegranate (Anar)</h3>
+            <select>
+              <option>500 gm</option>
+            </select>
+            <div class="price-row">
+              <span>₹160</span>
+              <button>Add</button>
+            </div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-img">
+            <img src="Broccoli 1.png" alt="Broccoli" />
+            <div class="card-actions">
+              <button class="wishlist-btn">
+                     <svg class="heart-icon" viewBox="0 0 24 24" fill="none" stroke="#364F2A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                       <path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.6l-1-1a5.5 5.5 0 0 0-7.8 7.8l1 1L12 21l7.8-7.8 1-1a5.5 5.5 0 0 0 0-7.8z"/>
+                     </svg>
+                   </button>
+               <i class="fas fa-heart wishlist-icon" data-id="6" data-name="Broccoli" data-price="135" data-image="Broccoli 1.png"></i>
+             </div>
+          </div>
+          <div class="product-details">
+            <h3>Fresh Green<br>Broccoli</h3>
+            <select>
+              <option>400 gm</option>
+            </select>
+            <div class="price-row">
+              <span>₹135</span>
+              <button>Add</button>
+            </div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-img">
+            <img src="mangoes 1.png" alt="Mango" />
+            <div class="card-actions">
+              <button class="wishlist-btn">
+                     <svg class="heart-icon" viewBox="0 0 24 24" fill="none" stroke="#364F2A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                       <path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.6l-1-1a5.5 5.5 0 0 0-7.8 7.8l1 1L12 21l7.8-7.8 1-1a5.5 5.5 0 0 0 0-7.8z"/>
+                     </svg>
+                   </button>
+               <i class="fas fa-heart wishlist-icon" data-id="7" data-name="Mango" data-price="280" data-image="mangoes 1.png"></i>
+             </div>
+          </div>
+          <div class="product-details">
+            <h3>King Alphonso<br>Mangoes </h3>
+            <select>
+              <option>500 gm</option>
+            </select>
+            <div class="price-row">
+              <span>₹280</span>
+              <button>Add</button>
+            </div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-img">
+            <img src="Beetroot 1.png" alt="Beetroot" />
+            <div class="card-actions">
+              <button class="wishlist-btn">
+                     <svg class="heart-icon" viewBox="0 0 24 24" fill="none" stroke="#364F2A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                       <path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.6l-1-1a5.5 5.5 0 0 0-7.8 7.8l1 1L12 21l7.8-7.8 1-1a5.5 5.5 0 0 0 0-7.8z"/>
+                     </svg>
+                   </button>
+               <i class="fas fa-heart wishlist-icon" data-id="8" data-name="Beetroot" data-price="135" data-image="Beetroot 1.png"></i>
+             </div>
+          </div>
+          <div class="product-details">
+            <h3>Farm<br>Beetroot</h3>
+            <select>
+              <option>1 dozen</option>
+            </select>
+            <div class="price-row">
+              <span>₹135</span>
+              <button>Add</button>
+            </div>
+          </div>
+        </div>
+    
+    
+      </div>
+    </section>
+    <div class="customer-heading-img">
+      <img src="Our Customers heading.png" alt="Meet Our Customers" />
+    </div>
+    
+    <!-- Customer Carousel Wrapper -->
+  <div class="customer-carousel-container">
+    <div class="customer-carousel">
+      <div class="customer-slides">
+        <img src="review1.png" alt="Review 1" class="customer-slide">
+        <img src="review2.png" alt="Review 2" class="customer-slide">
+        <img src="review3.png" alt="Review 3" class="customer-slide">
+        <img src="review4.png" alt="Review 4" class="customer-slide">
+        
+      </div>
+    </div>
+  </div>
+  <section class="way-we-farm-section">
+    
+    <img src="The way we farm.png" alt="the way we farm" />
+
+    <div class="farm-steps-container">
+      <div class="farm-step">
+        <div class="image-container">
+          <img src="Land prep.png" class="default-img" alt="Land Preparation">
+          <img src="Land alt.jpeg" class="hover-img" alt="Land Preparation">
+        </div>
+        <div class="step-label">Land Preparation</div>
+        <div class="step-description">Land is plowed using traditional methods to improve aeration and soil structure. Organic matter is added to enrich the soil.</div>
+      </div>
+
+      <div class="farm-step">
+        <div class="image-container">
+          <img src="Seed.png" class="default-img" alt="Seeding & Seed Treatment">
+          <img src="Seed alt.jpeg" class="hover-img" alt="Seeding & Seed Treatment">
+        </div>
+        <div class="step-label">Seeding & Seed Treatment</div>
+        <div class="step-description">Seeds are treated with natural agents and carefully sown to ensure even growth and crop health.</div>
+      </div>
+
+      <div class="farm-step">
+        <div class="image-container">
+          <img src="Watering.png" class="default-img" alt="Watering">
+          <img src="Watering alt.jpeg" class="hover-img" alt="Watering">
+        </div>
+        <div class="step-label">Watering</div>
+        <div class="step-description">Crops are irrigated using methods that conserve water and maintain optimal moisture levels.</div>
+      </div>
+
+      <div class="farm-step">
+        <div class="image-container">
+          <img src="Fertigation.png" class="default-img" alt="Fertigation">
+          <img src="Fertigation alt.jpeg" class="hover-img" alt="Fertigation">
+        </div>
+        <div class="step-label">Fertigation</div>
+        <div class="step-description">Natural compost is added to promote plant growth without synthetic fertilizers.</div>
+      </div>
+
+      <div class="farm-step">
+        <div class="image-container">
+          <img src="Pest.png" class="default-img" alt="Pest Management">
+          <img src="Pest alt.jpeg" class="hover-img" alt="Pest Management">
+        </div>
+        <div class="step-label">Pest Management</div>
+        <div class="step-description">Biological pest control methods are used to protect crops without harming the environment.</div>
+      </div>
+
+      <div class="farm-step">
+        <div class="image-container">
+          <img src="Harvesting.png" class="default-img" alt="Harvesting">
+          <img src="Harvesting alt.jpeg" class="hover-img" alt="Harvesting">
+        </div>
+        <div class="step-label">Harvesting</div>
+        <div class="step-description">Produce is harvested at peak ripeness to preserve nutritional value and freshness.</div>
+      </div>
+    </div>
+  </section>
+  <div style="align-items: center; text-align: center;">
+    <br><br>
+    <img src="Book farm visit.png" alt="book farm visit">
+    <br><br>
+    <img src="Footer.png" alt="footer">
+  </div>
+    <script>
+      const slides = document.querySelectorAll('.slide');
+      const dots = document.querySelectorAll('.dot');
+      const slideColors = [
+        ['#FFBA00', '#FFBA00', '#FFBA00'],
+        ['#A8D080', '#364F2A', '#A8D080'],
+        ['#A8D080', '#A8D080', '#8B5E3C']
+      ];
+    
+      let current = 0;
+      const delay = 3000;
+    
+      function updateCarousel() {
+        const slideTrack = document.querySelector('.slides');
+        slideTrack.style.transform = `translateX(-${current * 1468}px)`;
+    
+        // Update dot colors
+        dots.forEach((dot, index) => {
+          dot.style.backgroundColor = slideColors[current][index];
+        });
+    
+        // Update active slide class (optional if you use fade or effects)
+        slides.forEach(slide => slide.classList.remove('active'));
+        slides[current].classList.add('active');
+      }
+    
+      function nextSlide() {
+        current = (current + 1) % slides.length;
+        updateCarousel();
+      }
+    
+      setInterval(nextSlide, delay);
+      updateCarousel();
+      document.querySelectorAll('.wishlist-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const heart = btn.querySelector('.heart-icon');
+        const isFilled = heart.getAttribute('fill') === '#364F2A';
+        heart.setAttribute('fill', isFilled ? 'none' : '#364F2A');
+      });
+    });
+    
+    const wishlistButtons = document.querySelectorAll('.wishlist-icon');
+
+  wishlistButtons.forEach(button => {
+    button.addEventListener('click', () => {
+      const id = button.getAttribute('data-id');
+      const name = button.getAttribute('data-name');
+      const price = button.getAttribute('data-price');
+      const image = button.getAttribute('data-image');
+
+      let wishlist = JSON.parse(localStorage.getItem('wishlist')) || [];
+
+      const exists = wishlist.some(item => item.id === id);
+
+      if (!exists) {
+        wishlist.push({ id, name, price, image });
+        localStorage.setItem('wishlist', JSON.stringify(wishlist));
+      }
+    });
+  });
+
+    const customerCarousel = document.querySelector('.customer-carousel');
+    const customerSlideTrack = customerCarousel.querySelector('.customer-slides');
+    const customerSlides = Array.from(customerSlideTrack.children);
+
+    let currentCustomerIndex = 0;
+
+    function updateCustomerSlidePosition() {
+      const slideWidth = customerCarousel.offsetWidth;
+      const offset = -currentCustomerIndex * slideWidth;
+      customerSlideTrack.style.transform = `translateX(${offset}px)`;
+    }
+
+    function moveToNextCustomerSlide() {
+      currentCustomerIndex = (currentCustomerIndex + 1) % customerSlides.length;
+      updateCustomerSlidePosition();
+    }
+
+    setInterval(moveToNextCustomerSlide, 5000);
+    updateCustomerSlidePosition();
+  </script>
+  </body>
+  </html>

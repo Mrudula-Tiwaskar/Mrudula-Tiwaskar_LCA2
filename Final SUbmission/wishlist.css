@@ -1,0 +1,127 @@
+/* Wishlist Page Styles */
+
+.wishlist-section {
+    padding: 4rem 8%;
+    background-color: #f8f8f8;
+    min-height: 100vh;
+  }
+  
+  .wishlist-title {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .wishlist-title h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #333;
+  }
+  
+  .wishlist-products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 2rem;
+  }
+  
+  .product-card {
+    background-color: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: box-shadow 0.3s ease;
+    position: relative;
+  }
+  
+  .product-card:hover {
+    box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+  }
+  
+  .product-img {
+    position: relative;
+    height: 220px;
+    background-color: #fdfdfd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .product-img img {
+    max-height: 90%;
+    max-width: 90%;
+  }
+  
+  .wishlist-btn {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .heart-icon {
+    width: 24px;
+    height: 24px;
+    stroke: #FFBA00;
+    fill: none;
+    transition: stroke 0.3s ease;
+  }
+  
+  .product-card.in-wishlist .heart-icon {
+    stroke: #E74C3C;
+  }
+  
+  .product-details {
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .product-details h3 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin: 0.5rem 0;
+  }
+  
+  .product-details select {
+    margin-top: 0.5rem;
+    padding: 0.3rem 0.6rem;
+    font-size: 0.9rem;
+  }
+  
+  .price-row {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .price-row span {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #27ae60;
+  }
+  
+  .add-to-cart-btn {
+    background-color: #ffba00;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .add-to-cart-btn:hover {
+    background-color: #e0a800;
+  }
+  
+  @media (max-width: 768px) {
+    .wishlist-section {
+      padding: 2rem 4%;
+    }
+  
+    .wishlist-title h1 {
+      font-size: 2rem;
+    }
+  }
+  

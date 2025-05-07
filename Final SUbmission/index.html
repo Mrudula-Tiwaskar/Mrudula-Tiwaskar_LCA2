@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>OrgMart | Checkout</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&family=Gloria+Hallelujah&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header>
+    <div class="logo">OrgMart🌿</div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Shop</a>
+      <a href="#">Sustainability</a>
+      <a href="#">About Us</a>
+      <a href="#">Contact Us</a>
+    </nav>
+    <div class="search-bar">
+      <input type="text" placeholder="Try searching for Fresh Broccoli">
+    </div>
+    <div class="icons">👤 ❤️ 🛒</div>
+  </header>
+
+  <main>
+    <div class="checkout-form">
+      <h2>Checkout</h2>
+      <div class="radio-group">
+        <label><input type="radio" name="delivery" checked> Home Delivery</label>
+        <label><input type="radio" name="delivery"> Self - Pick Up</label>
+      </div>
+      <form>
+        <label>Full Name*</label>
+        <input type="text" placeholder="Enter Full Name" required>
+
+        <label>Email Address*</label>
+        <input type="email" placeholder="Enter Email Address" required>
+
+        <label>Phone Number*</label>
+        <input type="tel" placeholder="Enter Phone Number" required>
+
+        <label>Address*</label>
+        <input type="text" placeholder="Enter Address" required>
+
+        <div class="input-row">
+          <div>
+            <label>City*</label>
+            <input type="text" placeholder="Enter City Name" required>
+          </div>
+          <div>
+            <label>Pin-code*</label>
+            <input type="text" placeholder="Enter Pin-Code" required>
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <div class="cart-summary">
+      <h3>Review Your Cart</h3>
+      <div class="cart-item">
+        <img src="https://i.imgur.com/4f4N4pR.png" alt="Honey">
+        <div>Cold - Pressed Forest Honey<br>300 gm ×1<br>₹350</div>
+      </div>
+      <div class="cart-item">
+        <img src="https://i.imgur.com/d2Rltu3.png" alt="Mangoes">
+        <div>King Alphonso Mangoes<br>500 gm ×1<br>₹280</div>
+      </div>
+      <div class="cart-item">
+        <img src="https://i.imgur.com/ZUvvK7v.png" alt="Potatoes">
+        <div>Farm Potatoes<br>1 kg ×1<br>₹50</div>
+      </div>
+
+      <table>
+        <tr><td>Sub-Total</td><td align="right">₹680</td></tr>
+        <tr><td>Delivery Charges</td><td align="right">₹50</td></tr>
+        <tr><td>Handling</td><td align="right">₹10</td></tr>
+        <tr><td>GST</td><td align="right">₹28</td></tr>
+        <tr><td>Discount</td><td align="right">- ₹102</td></tr>
+        <tr class="total"><td>Total</td><td align="right">₹666</td></tr>
+      </table>
+      <button>Pay Now</button>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-top">
+      <div class="footer-section">
+        <h4>Quick Links</h4>
+        <a href="#">Home</a>
+        <a href="#">Shop</a>
+        <a href="#">Sustainability</a>
+        <a href="#">About Us</a>
+        <a href="#">Contact Us</a>
+      </div>
+      <div class="footer-section">
+        <h4>Get in Touch</h4>
+        <p>📍 Plot No. 123, Greenbelt Lane, VegCity, IN 400001</p>
+        <p>📞 +91 98765 43210</p>
+        <p>✉️ hello@orgmart.in</p>
+        <p>Stay Connected:<br>📸 Instagram | 📘 Facebook | ✖️ Twitter | 💼 LinkedIn</p>
+      </div>
+      <div class="footer-section">
+        <h4>Why OrgMart?</h4>
+        <p>At OrgMart, we believe food should be real, clean, and kind to the planet. All our produce is certified organic and comes straight from our trusted farmer network—no middlemen, no shady labels.</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      © 2025 OrgMart. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms & Conditions</a>
+    </div>
+  </footer>
+  
+</body>
+</html>

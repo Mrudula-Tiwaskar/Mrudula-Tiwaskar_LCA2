@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Wishlist - OrgMart</title>
+  <link rel="stylesheet" href="styles.css" />
+<link rel="stylesheet" href="wishlist.css" />
+</head>
+<body>
+  <div class="top-bar"></div>
+  <nav class="navbar">
+    <div class="nav-content">
+      <!-- Logo -->
+      <div class="logo">
+        <img src="Logo.png" alt="OrgMart Logo" />
+      </div>
+
+      <!-- Navigation Links -->
+      <ul class="nav-links">
+        <li><a href="home page.html">Home</a></li>
+        <li><a href="#">Shop</a></li>
+        <li><a href="#">Sustainability</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+
+      <!-- Search Box -->
+      <div class="search-box">
+        <input type="text" placeholder="Try searching for Fresh Broccoli" />
+      </div>
+
+      <!-- Icons -->
+      <div class="icons">
+        <img src="Profile.png" alt="Profile Icon" />
+        <img src="Wishlist.png" alt="Wishlist Icon" />
+        <div class="cart-icon">
+          <a href="cart2.html"><img src="Cart.png" alt="Cart Icon" /></a>
+          <span class="cart-count">2</span>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Wishlist Page Content -->
+  <section class="wishlist-section">
+    <div class="wishlist-title">
+      <h1>Your Wishlist</h1>
+    </div>
+
+    <div class="wishlist-products">
+      <div class="product-card" data-id="1">
+        <div class="product-img">
+          <img src="Honey 1.png" alt="Honey" />
+          <button class="wishlist-btn">
+            <svg class="heart-icon" viewBox="0 0 24 24" fill="none" stroke="#FFBA00" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.6l-1-1a5.5 5.5 0 0 0-7.8 7.8l1 1L12 21l7.8-7.8 1-1a5.5 5.5 0 0 0 0-7.8z"/>
+            </svg>
+          </button>
+        </div>
+        <div class="product-details">
+          <h3>Cold-Pressed Forest Honey</h3>
+          <select>
+            <option>300 gm</option>
+          </select>
+          <div class="price-row">
+            <span>₹350</span>
+            <button class="add-to-cart-btn">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+      <!-- Add more products here in the same structure -->
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-container">
+      <img src="Footer.png" alt="footer" />
+    </div>
+  </footer>
+  
+  <script src="wishlist.js"></script>
+</body>
+</html>
